@@ -1,0 +1,40 @@
+# Build output
+target/
+build/
+out/
+*.class
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Local env / secrets
+.env
+*.local.yml
+application-local.yml
+!src/main/resources/application-local.yml
+
+# JaCoCo
+*.exec

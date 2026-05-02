@@ -1,0 +1,13 @@
+# Test profile — datasource URL is overridden per-test by Testcontainers.
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+logging:
+  level:
+    com.jpmc.ledger: DEBUG
+    org.testcontainers: INFO
